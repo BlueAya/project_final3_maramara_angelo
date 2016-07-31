@@ -27,11 +27,17 @@ body {
 
 /* Header */
 
-.small-logo {
+.big-logo {
     width: 100%;
     padding: 1em;
 }
 
-.big-logo {
+.small-logo {
+    display: none;
+}
+
+/* Nav */
+
+#menu {
     display: none;
 }
