@@ -103,6 +103,35 @@ ul {
     border-radius: 25%;
 }
 
+/* Events Page */
+
+.pptruck {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.calendar {
+    /*background: #f16b6f;*/
+    border-radius: 25px;
+    padding: 1em;
+    color: #fafafa;
+    /*border: 5px solid #F16B6F;*/
+    margin-bottom: 2em;
+}
+
+.calendar p {
+    border: 5px solid #aacd6e;
+    background: #aacd6e;
+    border-radius: 10px;
+    color: #1e1e1e;
+    text-align: center;
+}
+
+.important {
+    color: #f16b6f;
+}
+
 /* Footer */
 
 footer {
