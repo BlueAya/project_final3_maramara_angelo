@@ -1,3 +1,12 @@
+/* Colors */
+
+/* #AACD6E - Light Green
+#F16B6F - Pink
+#C5C6B6 - Light Gray
+#3C3530 - Brown
+#000000 - Black
+#1e1e1e - Dark Gray */
+
 html {
     box-sizing: border-box;
 }
@@ -6,12 +15,6 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-body {
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.5;
-    background: #1e1e1e;
 }
 
 .visuallyhidden {
@@ -25,11 +28,25 @@ body {
     width: 1px;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    color: #1e1e1e;
+}
+
+h2 {
+    color: #aacd6e;
+}
+
+
+
+
 /* Header */
 
 .big-logo {
     width: 100%;
     padding: 1em;
+    background: #1e1e1e;
 }
 
 .small-logo {
@@ -40,4 +57,48 @@ body {
 
 #menu {
     display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Slider */
+
+.bx-wrapper {
+    max-width: 1200px;
+    margin-bottom: 0;
+}
+
+.bx-pager {
+    display: none;
+}
+
+/* Main Home Content */
+
+.wrapper {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#alien {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+}
+
+.awards {
+    max-width: 120px;
+    margin-right: 1em;
+}
+
+.awards-list li {
+    display: inline;
+}
+
+.awards3 {
+    border-radius: 25%;
 }
