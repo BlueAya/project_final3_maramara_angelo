@@ -104,29 +104,25 @@ ul {
 /* Menu Page */
 
 .menu-items {
-    text-align: left;
-}
-
-.menu-items li {
-    background-color: #F16B6F;
+    background-color: #f16b65;
     font-size: 2em;
     border-radius: 15px;
-    margin-bottom: 0.2em;
-    padding-left: 2em;
+    padding-top: 0;
+    margin: 0 0 0.2em 0;
 }
 
-.menu-items li:nth-child(2) {
-    background-color: #AACD6E;
+.beverages .menu-items,
+.entrees .menu-items {
+    background: #aacd6e;
 }
 
-.menu-items li:nth-child(3) {
-    background-color: #C5C6B6;
+.plus {
+    width: 35px;
+    margin-right: 1em;
+    float: left;
+    margin-top: 0.4em;
+    margin-left: 1em;
 }
-
-.menu-items li:nth-child(4) {
-    background-color: #3C3530;
-}
-
 
 /* Events Page */
 
