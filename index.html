@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 </head>
 <body>
-        <header>
+        <header id="header">
             <img class="small-logo" src="img/logo_vert.png" alt="Logo">
             <img class="big-logo" src="img/logo_horiz.png" alt="Logo">
             <nav>
@@ -25,28 +25,31 @@
                 </ul>
             </nav>
         </header>
-        <div class="slider">
-            <ul class="bxslider">
-                <li><img src="img/slider1.png" alt=""></li>
-                <li><img src="img/slider2.png" alt=""></li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <main>
-                <h2>Pizza That's Out Of This World</h2>
-                <p>Here at Pizza Planet, we like to have fun, but when it comes to pizza, we mean business. Having our ingredients imported and hand selected from all across the Milky Way, we guarantee you top-notch quality. Forget New York, forget Chicago, our space-style pizza is the best in the universe. So if you're looking for great food and a fun time, be sure to stop by and see if you can master The Claw. </p>
-                <img id="alien" src="img/alien.png" alt="Alien">
-                <h2>Awards</h2>
-                <p>Don't just take our word for how great our place is. Below are a few awards and titles we've earned over the past few Earth years.</p>
-                <ul class="awards-list">
-                    <li><img class="awards" src="img/award3.png" alt="2013 Best Kid Food Kiwi Award"></li>
-                    <li><img class="awards" src="img/award2.png" alt="2015 Food Magazine Awards"></li>
-                    <li><img class="awards3 awards" src="img/award1.png" alt="Good Food Award Finalist 2016"></li>
+        <div id="content">
+            <div class="slider">
+                <ul class="bxslider">
+                    <li><img src="img/slider1.png" alt=""></li>
+                    <li><img src="img/slider2.png" alt=""></li>
                 </ul>
-            </main>
+            </div>
+            <div class="wrapper">
+                <main>
+                    <h2>Pizza That's Out Of This World</h2>
+                    <p>Here at Pizza Planet, we like to have fun, but when it comes to pizza, we mean business. Having our ingredients imported and hand selected from all across the Milky Way, we guarantee you top-notch quality. Forget New York, forget Chicago, our space-style pizza is the best in the universe. So if you're looking for great food and a fun time, be sure to stop by and see if you can master The Claw. </p>
+                    <img id="alien" src="img/alien.png" alt="Alien">
+                    <h2>Awards</h2>
+                    <p>Don't just take our word for how great our place is. Below are a few awards and titles we've earned over the past few Earth years.</p>
+                    <ul class="awards-list">
+                        <li><img class="awards" src="img/award3.png" alt="2013 Best Kid Food Kiwi Award"></li>
+                        <li><img class="awards" src="img/award2.png" alt="2015 Food Magazine Awards"></li>
+                        <li><img class="awards3 awards" src="img/award1.png" alt="Good Food Award Finalist 2016"></li>
+                    </ul>
+                </main>
 
+            </div>
         </div>
-        <footer>
+
+        <footer id="footer" class="main-footer">
             <ul class="social-media">
                 <li><img class="social" src="img/facebook.png" alt="Facebook Icon"></li>
                 <li><img class="social" src="img/twitter.png" alt="Twitter Icon"></li>
@@ -60,6 +63,10 @@
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
+    <script>
+    var top = $(document).height() - $("footer.main-footer").height() ;
+     $("footer.main-footer").css('top' , top);
+</script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -34,12 +34,10 @@ body {
     color: #1e1e1e;
 }
 
+
 h2 {
     color: #aacd6e;
 }
-
-
-
 
 /* Header */
 
@@ -103,6 +101,33 @@ ul {
     border-radius: 25%;
 }
 
+/* Menu Page */
+
+.menu-items {
+    text-align: left;
+}
+
+.menu-items li {
+    background-color: #F16B6F;
+    font-size: 2em;
+    border-radius: 15px;
+    margin-bottom: 0.2em;
+    padding-left: 2em;
+}
+
+.menu-items li:nth-child(2) {
+    background-color: #AACD6E;
+}
+
+.menu-items li:nth-child(3) {
+    background-color: #C5C6B6;
+}
+
+.menu-items li:nth-child(4) {
+    background-color: #3C3530;
+}
+
+
 /* Events Page */
 
 .pptruck {
@@ -112,11 +137,9 @@ ul {
 }
 
 .calendar {
-    /*background: #f16b6f;*/
     border-radius: 25px;
     padding: 1em;
     color: #fafafa;
-    /*border: 5px solid #F16B6F;*/
     margin-bottom: 2em;
 }
 
