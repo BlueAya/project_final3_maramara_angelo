@@ -103,6 +103,7 @@ ul {
 
 /* Menu Page */
 
+
 .menu-items {
     background-color: #f16b65;
     font-size: 2em;
@@ -123,6 +124,19 @@ ul {
     margin-top: 0.4em;
     margin-left: 1em;
 }
+
+.akordeon-item-content .h3p {
+    float: left;
+    width: calc(100% / 2);
+}
+
+.akordeon-item-content img {
+    float: right;
+    border-radius: 10px;
+    width: calc(100% / 2);
+}
+
+
 
 /* Events Page */
 
@@ -222,4 +236,9 @@ footer {
 .social-media li:first-of-type,
 .social-media li:first-of-type + li {
     margin-right: 2em;
+}
+
+.clearfix {
+    clear: both;
+    margin-bottom: 3em;
 }

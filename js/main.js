@@ -4,9 +4,13 @@ $(document).ready(function () {
 
     $('.bxslider').bxSlider();
 
+
+    $('.akordeon').akordeon();
+
     $('#footer').css('margin-top',
     $(document).height()
   - ($('#header').height() + $('#content').height())
   - $('#footer').height()
     );
+
 });
