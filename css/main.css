@@ -153,9 +153,48 @@ ul {
 
 /* Contact Page */
 
-.location {
+
+
+iframe {
+    width: 100%;
+    min-height: 300px;
+}
+
+.location-block,
+.phone-block,
+.email-block {
+    text-align: center;
+}
+
+.contact-info {
+    color: #f16b6f;
+    line-height: 0.5;
+    display: inline-block;
+}
+
+.fa-map-marker {
+    padding-right: 0.5em;
+    color: #aacd6e;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.fa-phone,
+.fa-envelope {
+    color: #aacd6e;
+    padding-right: 0.5em;
+}
+
+.phone-num,
+.email {
+    text-decoration: underline;
+}
+
+.hours-block {
     color: #f16b6f;
 }
+
 
 /* Footer */
 
