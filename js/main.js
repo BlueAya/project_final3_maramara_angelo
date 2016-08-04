@@ -5,8 +5,8 @@ $(document).ready(function () {
     $('.bxslider').bxSlider();
 
     $('#footer').css('margin-top',
-  $(document).height()
-  - ( $('#header').height() + $('#content').height() )
+    $(document).height()
+  - ($('#header').height() + $('#content').height())
   - $('#footer').height()
-);
+    );
 });
