@@ -1,10 +1,12 @@
 $(document).ready(function () {
 
+    //This jQuery plugin creates a quick mobile hamburger menu navigation.
     $('#menu').slicknav();
 
+    //This jQuery plugin creates a responsive slider in which you can place images and control the rate at which it transitions
     $('.bxslider').bxSlider();
 
-
+    //This jQuery plugin creates a collapsible menu of items
     $('.akordeon').akordeon();
 
     //Custom jquery
