@@ -16,7 +16,7 @@ $(document).ready(function () {
 });
 
 //Custom JavaScript
-//This code listens for when the user clicks on the Toy Story alien image. After clicking on the image, this code adds the text including a promo code for a free game, right above the Awards heading.
+//This code listens for when the user clicks on the Toy Story alien image. After clicking on the image, this code adds the text including a promo code for a free game, right above the Awards heading. This code also adds styling to the text to make it stand out when added to the page.
 var clickMe = document.getElementById('alien');
 
 var newParagraph = document.createElement('p');
