@@ -56,7 +56,7 @@
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px; /* position: absolute;     left: -8px;       top:14px;*/
     padding: 0;
-    margin: 0;
+    margin-left: 1em;
     float: left;
     cursor: pointer;
     behavior: url(PIE.htc);
@@ -73,20 +73,22 @@
     color: #83a626;
     font-size: 36px;
     position: absolute;
-    left: 6px;
-    top: -6px;
+    left: 18px;
+    top: -13px;
     font-weight: bold;
     text-align: center;
 }
 .akordeon-item.expanded .akordeon-icon span
 {
-    top: -9px;
+    top: -12px;
+    left: 20px;
 }
 .akordeon-item-head-container
 {
     width: 100%;
     position: absolute;
     left: -8px;
+    top: 8px;
     cursor: pointer;
 }
 
