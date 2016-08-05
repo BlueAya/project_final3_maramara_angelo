@@ -66,12 +66,7 @@ header {
 .big-logo {
     width: 100%;
     padding: 1em;
-    /*background: #1e1e1e;*/
     max-width: 800px;
-}
-
-.small-logo {
-    display: none;
 }
 
 /* Nav */
@@ -177,14 +172,6 @@ ul {
 .beverages .menu-items,
 .entrees .menu-items {
     background: #aacd6e;
-}
-
-.plus {
-    width: 35px;
-    margin-right: 1em;
-    float: left;
-    margin-top: 0.4em;
-    margin-left: 1em;
 }
 
 .akordeon-item-content .h3p {
