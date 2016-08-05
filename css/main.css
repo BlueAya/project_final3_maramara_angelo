@@ -42,10 +42,15 @@ h2 {
 
 /* Header */
 
+header {
+    text-align: center;
+}
+
 .big-logo {
     width: 100%;
     padding: 1em;
-    background: #1e1e1e;
+    /*background: #1e1e1e;*/
+    max-width: 800px;
 }
 
 .small-logo {
@@ -62,6 +67,45 @@ ul {
     list-style: none;
     padding: 0;
     text-align: center;
+}
+
+@media all and (min-width: 800px) {
+
+    /* Large Screen Navigation */
+
+    .slicknav_menu {
+        display: none;
+    }
+
+
+    #menu {
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        background: #f16b6f;
+        margin: 0;
+    }
+
+    #menu li {
+        display: inline-block;
+        width: calc(100% / 4 - 1em);
+    }
+
+    #menu li a {
+        text-decoration: none;
+        color: #fafafa;
+    }
+
+    #menu li a:hover {
+        text-decoration: none;
+        background: #aacd6e;
+        padding: 0.1em 0.5em 0.1em 0.5em;
+    }
+
+    .visited {
+        background: #aacd6e;
+        padding: 0.1em 0.5em 0.1em 0.5em;
+    }
 }
 
 /* Slider */
