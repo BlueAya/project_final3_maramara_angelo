@@ -196,8 +196,14 @@ ul {
     float: right;
     border-radius: 10px;
     width: calc(100% / 2);
+    max-width: 200px;
 }
 
+@media all and (min-width: 1000px) {
+    .akordeon-item-content img {
+        margin-right: 10em;
+    }
+}
 
 
 /* Events Page */
