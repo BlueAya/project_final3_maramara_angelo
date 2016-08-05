@@ -20,7 +20,7 @@ $(document).ready(function () {
 });
 
 //Custom JavaScript
-//This code listens for when the user clicks on the Toy Story alien image. After clicking on the image, this code adds the text including a promo code for a free game, right above the Awards heading. This code also adds styling to the text to make it stand out when added to the page.
+//This code listens for when the user clicks on the Toy Story alien image. After clicking on the image, this code adds the text including a promo code for a free game, right above the Awards heading. This code also adds styling to the text to make it stand out when added to the page. I needed to wrap the Event Listener in an if statement to prevent errors from appearing in the other pages where the page could not find the element with the id of "alien".
 var clickMe = document.getElementById('alien');
 
 var newParagraph = document.createElement('p');
@@ -31,8 +31,11 @@ var maincontent = document.getElementById('maincontent');
 
 var awards = document.getElementById('awards');
 
-clickMe.addEventListener('click', function () {
-    newParagraph.appendChild(promoCode);
-    newParagraph.setAttribute('style', 'color: #f16b6f');
-    maincontent.insertBefore(newParagraph, awards);
-});
+
+if (clickMe) {
+    clickMe.addEventListener('click', function () {
+        newParagraph.appendChild(promoCode);
+        newParagraph.setAttribute('style', 'color: #f16b6f');
+        maincontent.insertBefore(newParagraph, awards);
+    });
+}
