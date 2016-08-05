@@ -177,7 +177,8 @@ iframe {
 
 .location-block,
 .phone-block,
-.email-block {
+.email-block,
+.reservation-block {
     text-align: center;
 }
 
@@ -206,8 +207,14 @@ iframe {
     text-decoration: underline;
 }
 
-.hours-block {
+.hours-block,
+.reservation-block {
     color: #f16b6f;
+}
+
+.reservation-block {
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 
