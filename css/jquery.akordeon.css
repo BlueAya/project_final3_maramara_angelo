@@ -65,7 +65,7 @@
 {
     float: left;
     padding-left: 10px;
-    padding-top: 8px;
+    margin-top: -8px;
     font-weight: bold;
 }
 .akordeon-icon span
