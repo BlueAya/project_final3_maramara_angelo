@@ -34,6 +34,23 @@ body {
     color: #1e1e1e;
 }
 
+#primary-container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fafafa;
+}
+
+@media all and (min-width: 1200px) {
+    body {
+        background: url('../img/blackbluebg.jpg');
+    }
+
+    header {
+        background: black;
+    }
+
+}
+
 
 h2 {
     color: #aacd6e;
