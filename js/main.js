@@ -7,6 +7,10 @@ $(document).ready(function () {
 
     $('.akordeon').akordeon();
 
+    //Custom jquery
+    //This takes all of the paragraphs and sets them to hidden which is then followed by a fade in which fades them onto the page as it loads.
+    $('p').hide().fadeIn();
+
     $('#footer').css('margin-top',
     $(document).height()
   - ($('#header').height() + $('#content').height())
